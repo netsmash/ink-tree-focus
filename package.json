@@ -1,13 +1,13 @@
 {
   "name": "ink-tree-focus",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Focus manager for Ink that follows the component tree structure",
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
     "test": "jest",
     "start": "ts-node src/index.tsx",
-    "build": "rm -rf dist && tsc --declaration && cp ./package.json ./README.md dist/",
+    "build": "rm -rf dist && tsc --declaration && cp ./package.json ./README.md ./CHANGELOG.md dist/",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\" \"examples/**/*.tsx\"",
     "lint": "eslint src/ --ext .ts,.tsx",
     "example": "npm run example:overview",
